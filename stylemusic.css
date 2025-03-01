@@ -1,0 +1,83 @@
+body {
+    background-image: linear-gradient(rgb(238, 96, 120), rgb(249, 249, 129), rgb(225, 161, 225));
+    background-repeat: no-repeat;
+    height: 620px;
+    margin-top: 200px;
+    overflow-x: hidden;
+}
+
+#container:hover {
+    box-shadow: 0 0 15px 15px rgb(241, 22, 58);
+}
+
+#container {
+    border: 5px solid black;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+    margin: auto;
+    padding: 20px; 
+    position: relative;
+}
+
+.pic {
+    border: 8px double black;
+}
+
+.pic:hover {
+    border: none;
+}
+
+#container .pic {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto; 
+}
+
+#voice {
+    width: 200px;
+    border-radius: 20px;
+    display: block;
+    margin: 10px auto;
+}
+
+p, h1 {
+    text-align: center;
+}
+
+.imge {
+    margin-left: 80px;
+}
+
+image {
+    margin-left: 50px;
+}
+.star {
+    height: 35px;
+    position: absolute; 
+    top: 385px; 
+    right: 60px;
+}
+.box {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    gap: 3px;
+}
+
+.battery, .wifi {
+    height: 25px; 
+    margin: 0;
+}
+
+.dot {
+    position: absolute;
+    top: 40px; 
+    right: 10px;
+    height: 25px; 
+}
